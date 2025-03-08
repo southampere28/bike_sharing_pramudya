@@ -4,9 +4,9 @@ import seaborn as sns
 import streamlit as st
 
 ################### import #################
-day_df = pd.read_csv("day_df_final.csv")
+day_df = pd.read_csv("dashboard/day_df_final.csv")
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
-hour_df = pd.read_csv("hour_df_final.csv")
+hour_df = pd.read_csv("dashboard/hour_df_final.csv")
 hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
 ############################################
 
